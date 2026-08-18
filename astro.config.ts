@@ -21,6 +21,7 @@ import { rehypeExternalLinks } from "./src/utils/rehypeExternalLinks";
 import config from "./astro-paper.config";
 
 export default defineConfig({
+  base: "/astro-paper",
   site: config.site.url,
   integrations: [
     mdx(),

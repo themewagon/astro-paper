@@ -28,7 +28,7 @@ export function rehypeExternalLinks() {
           const newRel = ["noopener", "noreferrer"];
           const combinedRel = Array.from(
             new Set([...relArray, ...newRel])
-          ).join(" ");
+          );
 
           node.properties.rel = combinedRel;
         }
