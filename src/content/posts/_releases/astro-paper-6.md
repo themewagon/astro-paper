@@ -34,13 +34,13 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://your-site.com/",
+    url: "#!",
     title: "AstroPaper",
     description: "…",
     author: "Your Name",
     lang: "en",
     timezone: "UTC",
-    googleVerification: "your-verification-value",
+    googleVerification: "#!",
   },
   posts: {
     perPage: 4,
@@ -168,7 +168,7 @@ The preferred way to set Google Site Verification is `site.googleVerification` i
 export default defineAstroPaperConfig({
   site: {
     // …
-    googleVerification: "your-google-site-verification-value",
+    googleVerification: "#!",
   },
 });
 ```
@@ -176,7 +176,7 @@ export default defineAstroPaperConfig({
 The `PUBLIC_GOOGLE_SITE_VERIFICATION` environment variable is still supported as a fallback for cases where you prefer not to commit the value to the config file.
 
 ```bash file=".env"
-PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
+PUBLIC_GOOGLE_SITE_VERIFICATION=#!
 ```
 
 When both are set, `site.googleVerification` takes precedence.
