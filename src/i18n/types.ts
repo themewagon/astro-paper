@@ -34,6 +34,9 @@ export interface UIStrings {
   footer: {
     copyright: string;
     allRightsReserved: string;
+    distributedBy: string;
+    themeWagon: string;
+    themeWagonUrl: string;
   };
   pages: {
     tagTitle: string;

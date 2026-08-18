@@ -36,6 +36,9 @@ export default {
   footer: {
     copyright: "Copyright",
     allRightsReserved: "All rights reserved.",
+    distributedBy: "Distributed by",
+    themeWagon: "ThemeWagon",
+    themeWagonUrl: "https://themewagon.com",
   },
   pages: {
     tagTitle: "Tag",
