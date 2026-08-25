@@ -24,7 +24,7 @@ const currentYear = new Date().getFullYear();
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
       <span>{t.footer.copyright} &#169; {currentYear}</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>{t.footer.allRightsReserved}</span>
+      <span>{t.footer.allRightsReserved} by <a class="hover:text-green-600" href={t.footer.authorUrl} target="_blank">{t.footer.author}</a></span>
     </div>
   </div>
   <p class="mb-4 text-center">

@@ -37,6 +37,8 @@ export interface UIStrings {
     distributedBy: string;
     themeWagon: string;
     themeWagonUrl: string;
+    author: string;
+    authorUrl: string;
   };
   pages: {
     tagTitle: string;

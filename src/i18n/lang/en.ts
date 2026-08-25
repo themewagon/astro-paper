@@ -35,10 +35,12 @@ export default {
   },
   footer: {
     copyright: "Copyright",
-    allRightsReserved: "All rights reserved.",
+    allRightsReserved: "All rights reserved",
     distributedBy: "Distributed by",
     themeWagon: "ThemeWagon",
     themeWagonUrl: "https://themewagon.com",
+    author: "Sat Naing",
+    authorUrl: "https://github.com/satnaing",
   },
   pages: {
     tagTitle: "Tag",
